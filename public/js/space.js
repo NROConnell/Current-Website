@@ -7,7 +7,6 @@ const result = document.querySelector('#result');
 dateInput.max = new Date().toISOString().slice(0, 10);
 
 async function loadPicture(date) {
-    console.log('Loading picture for date:', date);
     statusBox.textContent = 'Loading...';
     result.hidden = true;
 
